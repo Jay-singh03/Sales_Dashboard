@@ -22,7 +22,7 @@ This project focuses on analyzing sales data using Power BI to uncover trends, i
   * Region
   * Sales Amount
   * Profit
-  https://github.com/Jay-singh03/Sales_Dashboard/blob/main/retail_sales_dataset.xlsx
+  * https://github.com/Jay-singh03/Sales_Dashboard/blob/main/retail_sales_dataset.xlsx
 
 🔍 Key Steps Performed
 1. Data Cleaning & Transformation
