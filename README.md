@@ -58,7 +58,8 @@ This project focuses on analyzing sales data using Power BI to uncover trends, i
 * Forecasting visualization for future planning
 
 📷 Dashboard Preview
-(Add screenshots of your Power BI dashboard here)
+<img width="631" height="348" alt="image" src="https://github.com/user-attachments/assets/b93bfd4e-8a7f-4a13-a974-0b2d2a2aedbe" />
+
 
 🚀 Conclusion
 This project demonstrates how Power BI can be used to transform raw sales data into meaningful insights through visualization and forecasting. The dashboard helps in making data-driven business decisions effectively.
