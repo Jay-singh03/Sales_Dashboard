@@ -14,7 +14,7 @@ This project focuses on analyzing sales data using Power BI to uncover trends, i
 * Power BI Desktop
 * Power Query Editor (Data Cleaning & Transformation)
 * DAX (Data Analysis Expressions)
-* 
+
 📂 Dataset
 * Sales dataset containing information such as:
   * Order Date
