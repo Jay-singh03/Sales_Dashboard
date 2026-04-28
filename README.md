@@ -1,79 +1,64 @@
-# Algonive_Sales_Data_Analysis_And_Forecasting
+📊 Sales Data Analysis & Forecasting (Power BI)
 
 📌 Overview
-This project contains an interactive Power BI Retail Sales Dashboard built using a dataset of 1,000 retail transactions.
-The dashboard helps visualize sales performance, customer behavior, and product category insights in a clear and easy-to-understand format.
+This project focuses on analyzing sales data using Power BI to uncover trends, identify key performance metrics, and generate actionable business insights. The dashboard provides a clear and interactive view of sales performance across different dimensions such as time, region, and product categories.
 
+🎯 Objectives
+* Analyze historical sales data to identify patterns and trends
+* Monitor key performance indicators (KPIs) like revenue, profit, and growth
+* Build an interactive dashboard for better decision-making
+* Perform time-based analysis to understand seasonal trends
+* Forecast future sales based on historical data
 
-# The dashboard screenshot is included below:
-Link: https://github.com/Jay-singh03/Algonive_Sales_Data_Analysis_And_Forecasting/blob/main/Retail_Sales_Dashboard_ScreensShot.png
+🛠 Tools & Technologies
+* Power BI Desktop
+* Power Query Editor (Data Cleaning & Transformation)
+* DAX (Data Analysis Expressions)
+* 
+📂 Dataset
+* Sales dataset containing information such as:
+  * Order Date
+  * Product Category
+  * Region
+  * Sales Amount
+  * Profit
 
-📊 Dashboard Features
-1. KPI Summary
-- The top section displays key performance indicators:
-* Total Revenue: 456K
-* Total Quantity Sold: 2514
-* Average Transaction Value: 456
-* Unique Customers: 1000
-These KPIs give a quick overall picture of business performance.
+🔍 Key Steps Performed
+1. Data Cleaning & Transformation
+* Removed duplicates and handled missing values
+* Converted data types for accurate analysis
+* Structured dataset using Power Query Editor
 
+2. Data Modeling
+* Created relationships between tables (if applicable)
+* Built calculated columns and measures using DAX
 
-2. Sales Trend Over Time
-- Line chart showing monthly revenue
-- Helps identify peak months and seasonal patterns
+3. Data Visualization
+* Designed interactive dashboards using:
+  * Bar Charts
+  * Line Charts
+  * Pie Charts
+  * KPI Cards
+* Added filters and slicers for dynamic analysis
 
+4. Sales Forecasting
+* Applied Power BI forecasting feature
+* Predicted future sales trends based on historical data
 
-3. Gender-Based Sales Analysis
-- Pie chart comparing male vs. female purchases
-- Shows distribution of total sales by gender
+📊 Key Insights
+* Identified top-performing products and regions
+* Observed sales growth trends over time
+* Detected seasonal patterns in sales performance
+* Highlighted areas with low performance for improvement
 
+📈 Dashboard Features
+* Interactive filters (Region, Category, Time)
+* KPI indicators for quick performance tracking
+* Trend analysis using time-series visuals
+* Forecasting visualization for future planning
 
-4. Product Category Performance
-- Bar chart showing sales across categories:
-* Beauty
-* Clothing
-* Electronics
-Helps understand which categories generate more revenue.
+📷 Dashboard Preview
+(Add screenshots of your Power BI dashboard here)
 
-
-5. Age Group vs. Spending
-- Bar chart grouped by age ranges:
-* 18–25
-* 26–35
-* 36–50
-* 50+
-Useful for identifying high-spending age segments.
-
-
-6. Top 5 Customers
-- Bar chart showing the top customers by revenue
-- Helps identify loyal or high-value customers
-
-
-🧮 DAX Measures Used
-* Total Sales = SUM('Sales'[Total Amount])
-* Average Transaction Value = AVERAGE('Sales'[Total Amount])
-* Total Quantity Sold = SUM('Sales'[Quantity])
-* Unique Customers = DISTINCTCOUNT('Sales'[Customer ID])
-
-
-📂 Dataset Fields
-- The dataset includes:
-* Transaction ID
-* Date
-* Customer ID
-* Gender
-* Age
-* Product Category
-* Quantity
-* Price per Unit
-* Total Amount
-
-
-🎯 Purpose of This Project
-- This Power BI dashboard is created to:
-* Analyze sales patterns
-* Understand customer demographics
-* Compare product category performance
-* Support data-driven decisions in retail
-* Demonstrate Power BI visualization skills
+🚀 Conclusion
+This project demonstrates how Power BI can be used to transform raw sales data into meaningful insights through visualization and forecasting. The dashboard helps in making data-driven business decisions effectively.
